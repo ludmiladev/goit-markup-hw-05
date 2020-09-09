@@ -111,14 +111,17 @@
           <li class="top-menu">
             <img src="./images/block-chema.jpg" width="370" height="294"
               alt="планшет, пальцы на клавиатуре, нарисованная блок-схема на листе" />
+            <p class="top-menu-text">Десктопные приложения</p>
           </li>
           <li class="top-menu">
             <img src="./images/nout.jpg" width="370" height="294"
               alt="пальцы одной руки на клавиатуре включённого ноутбука, смартфон в другой руке" />
+            <p class="top-menu-text">Мобильные приложения</p>
           </li>
           <li class="top-menu">
             <img src="./images/planshet.jpg" width="370" height="294"
               alt="цветная пиктограмма на включенном планшете" />
+            <p class="top-menu-text">Дизайнерские решения</p>
           </li>
         </ul>
       </div>
@@ -339,8 +342,6 @@
   <footer class="bottom">
     <div class="container">
       <section class="bottom-cell">
-        <!-- Заглавие будет скрыто -->
-        <h2 class="scrit">Наши контакты</h2>
         <a href="./index.html" class="logo" lang="en">
           <span>Web</span>Studio</a>
         <address class="bottom-svjaz">
@@ -395,6 +396,20 @@
 
     </div>
   </footer>
+
+  <!-- Модальное окно -->
+  <div class="fon scrivaet" data-modal>
+    <div class="modal">
+      <button type="button" class="close-btn" data-modal-close>
+        <svg width="18" height="18">
+          <use href="./images/sprite.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="./js/modal.js"></script>
+
 </body>
 
 </html>
