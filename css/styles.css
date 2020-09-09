@@ -200,12 +200,13 @@ header .container {
 
 .nav-svjaz:hover,
 .nav-svjaz:focus {
-  color: var(--accent-color);
+  /*color: var(--accent-color);*/
   fill: color: var(--accent-color);
 }
 
 .nav-svjaz a {
   fill: var(--primary-text-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -477,6 +478,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+
+
 }
 
 .social-list-item-link {
@@ -620,6 +626,8 @@ bottom-svjaz a {
 
 .bottom-cozseti .social-list-item-link:hover {
   background-color: var(--accent-color);
+  color: var(--primary-gov-color);
+
 }
 
 .bottom-cozseti .social-list-item-link:hover .social-list-item-svg {
