@@ -103,9 +103,9 @@ address {
 /* Cтилизация заголовка*/
 
 header {
-  padding-top: 35px;
+  /* padding-top: 35px;
   /*отступ от верхнего края*/
-  padding-bottom: 29px;
+  /* padding-bottom: 29px;*/
   /*отступ от нижнего края содержимог оелемента*/
   background-color: var(--primary-gov-color);
 }
@@ -205,10 +205,10 @@ header .container {
   letter-spacing: 0.02em;
 }
 
-.nav-svjaz a:hover svg ,
-.nav-svjaz a:focus svg{
+.nav-svjaz a:hover,
+.nav-svjaz a:focus {
   color: var(--accent-color);
-  fill: color: var(--accent-color);;
+  fill: color: var(--accent-color);
 }
 
 .nav-svjaz a {
@@ -216,11 +216,11 @@ header .container {
 }
 
 .nav-svjaz-convert {
-  fill: var(--primary-text-color);
+  /* fill: var(--primary-text-color);*/
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 
 }
 
@@ -230,9 +230,9 @@ header .container {
   background-size: 100%;
   width: 10px;
   height: 16px;
-  margin-top: 12px;
+  /*margin-top: 12px;*/
   margin-right: 10px;
-  margin-top: 15px;
+  /* margin-top: 15px;*/
 }
 
 .nav-svjaz-convert {
