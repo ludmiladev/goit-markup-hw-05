@@ -187,6 +187,7 @@ header .container {
   color: var(--accent-color);
 }
 
+
 /* Стилизация связи, тел. и емейл */
 
 .nav-svjaz {
@@ -197,8 +198,14 @@ header .container {
 
 }
 
+.nav-svjaz:hover,
+.nav-svjaz:focus {
+  color: var(--accent-color);
+  fill: color: var(--accent-color);
+}
+
 .nav-svjaz a {
-  color: var(--primary-text-color);
+  fill: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
