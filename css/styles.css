@@ -768,7 +768,7 @@ header {
 .projeckt {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+
   list-style: none;
 }
 
@@ -793,6 +793,9 @@ header {
 .projeckt .box {
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .projeckt-overlay {
