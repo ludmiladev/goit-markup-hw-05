@@ -530,8 +530,6 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 15px;
-
-
 }
 
 .social-list-item-link {
@@ -662,6 +660,8 @@ section {
 .bottom-cozseti {
   display: block;
   margin-bottom: 20px;
+  padding-top: 115px;
+  padding-left: 30px;
   font-size: 14px;
   line-height: 1.14;
   /*  margin-top: 72px;
@@ -766,6 +766,7 @@ header {
 
 .projeckt {
   display: flex;
+  margin: -15px;
   flex-wrap: wrap;
   list-style: none;
 }
