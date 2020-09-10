@@ -166,7 +166,7 @@ header .container {
   padding-top: 33px;
   padding-bottom: 32px;
   width: max-content;
-   font-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -236,7 +236,7 @@ header .container {
 
 .nav-svjaz a:hover,
 .nav-svjaz a:focus {
-     color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-svjaz a {
@@ -249,6 +249,7 @@ header .container {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  padding: 5px;
   /*margin-top: 15px;*/
 
 }
@@ -602,14 +603,14 @@ p {
 
 .clients .list-item-link:hover .list-item-link-svg {
   fill: var(--accent-color);
- }
+}
 
 
 /* Cтилизация футера */
 
 /* Стилизация контактных данных футера: адрес, тел , емейл */
 .bottom {
- /* padding-top: 60px;
+  /* padding-top: 60px;
   padding-bottom: 60px;*/
   background-color: var(--secondary-sov-color);
 }
@@ -709,7 +710,7 @@ h1,
 h2,
 h3,
 h4,
-p{
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -747,7 +748,7 @@ header {
   color: var(--title-text-color);
   background-color: var(--secondary-lav-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 4px;
+  border-radius: 4px;
   border-width: 0;
 }
 
@@ -908,4 +909,3 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
-
