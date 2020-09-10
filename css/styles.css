@@ -191,6 +191,11 @@ header .container {
   border-radius: 2px;
 }
 
+.site-nav .link.current::after {
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
