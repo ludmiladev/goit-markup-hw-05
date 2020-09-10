@@ -219,7 +219,7 @@ header .container {
 .nav-svjaz:hover,
 .nav-svjaz:focus {
   var(--accent-color);
-  fill: color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-svjaz a {
@@ -236,8 +236,7 @@ header .container {
 
 .nav-svjaz a:hover,
 .nav-svjaz a:focus {
-  color: var(--accent-color);
-  fill: color: var(--accent-color);
+     color: var(--accent-color);
 }
 
 .nav-svjaz a {
@@ -255,7 +254,7 @@ header .container {
 }
 
 .nav-svjaz-phone {
-  fill: var(--primary-text-color);
+  /*fill: var(--primary-text-color);*/
   fill: currentColor;
   background: url('./images/symbol-defs.svg');
   background-size: 100%;
@@ -506,9 +505,9 @@ p {
   text-align: center;
   padding-bottom: 30px;
   background: var(--primary-gov-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
   /*добавляем тень*/
 }
 
@@ -561,7 +560,7 @@ p {
 }
 
 .social-list-item-link:hover .social-list-item-svg {
-  fill: var(primary-gov-color);
+  fill: var(--primary-gov-color);
 }
 
 
@@ -634,7 +633,7 @@ p {
 
 .bottom-cell {
   margin-top: 60px;
-  margin-bottom: 60 px;
+  margin-bottom: 60px;
   width: 270px;
 
 }
@@ -643,7 +642,7 @@ section {
   display: block;
 }
 
-bottom-svjaz a {
+.bottom-svjaz a {
   color: var(--primary-gov-color);
   font-size: 14px;
   line-height: 1.71;
@@ -692,7 +691,7 @@ bottom-svjaz a {
 
 .bottom-prisoedenajtes {
   font-weight: 700;
-  /*display: inline-block;
+  /*display: inline-block;*/
   display: block;
   margin-bottom: 15px;
   font-size: 14px;
@@ -768,7 +767,6 @@ header {
 .projeckt {
   display: flex;
   flex-wrap: wrap;
-
   list-style: none;
 }
 
@@ -786,8 +784,7 @@ header {
 
 .projeckt-stroca:hover,
 .projeckt-stroca:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projeckt .box {
@@ -795,7 +792,6 @@ header {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .projeckt-overlay {
@@ -841,7 +837,6 @@ header {
 
   color: var(--title-text-color);
 
-  color: var(--title-text-color);
 }
 
 .projeckt-absaz {
@@ -886,7 +881,7 @@ header {
   height: 581px;
 
   background-color: var(--primary-gov-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
   transform: translate(-50%, -50%) scale(1);
