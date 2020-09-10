@@ -88,7 +88,6 @@ address {
 
 .scrit {
   position: absolute;
-  clip-path: rect(1px, 1px, 1px, 1px);
   /*область для скрытого заголовка*/
   padding: 0;
   border: 0;
@@ -179,10 +178,6 @@ header .container {
   margin-right: 50px;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
 
 .site-nav .link.current::after {
   content: "";
@@ -192,8 +187,13 @@ header .container {
   width: 100%;
   height: 4px;
   background-color: var(--accent-color);
-  /*color: var(--accent-color);*/
+  color: var(--accent-color);
   border-radius: 2px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
 
 .site-nav .link.current {
@@ -213,15 +213,15 @@ header .container {
 
 .nav-svjaz:hover,
 .nav-svjaz:focus {
-  /*color: var(--accent-color);*/
+  var(--accent-color);
   fill: color: var(--accent-color);
 }
 
 .nav-svjaz a {
   fill: var(--primary-text-color);
   color: var(--primary-text-color);
-  display: flex;
-  align-items: center;
+  /*display: flex;
+  align-items: center;*/
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -377,7 +377,7 @@ p {
   display: block;
   content: "";
   height: 120px;
-  margin-bottom: 30px;
+
   background-color: #f5f4fa;
   border-radius: 4px;
   background-repeat: no-repeat;
@@ -418,8 +418,15 @@ p {
 
 /* Стилизация секции чем мы занимаемся*/
 
+.cartinca .cape {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
 .cartinca {
   padding-top: 0;
+
 }
 
 .cartinca-title {
@@ -429,6 +436,13 @@ p {
   /* размер шрифта*/
   line-height: 1.17;
 }
+.top-menu {
+  display: flex;
+  flex-wrap: wrap;
+  /*Флексы выстраиваются в несколько строк*/
+  margin: -15px;
+}
+
 
 .cartinca .top-menu {
   width: 370px;
@@ -437,7 +451,7 @@ p {
 }
 
 .cartinca .top-menu-text {
-  position: absolute;
+
   right: 0;
   bottom: 0;
   width: 100%;
@@ -462,13 +476,6 @@ p {
 }
 
 
-.comanda .cape {
-  display: flex;
-  flex-wrap: wrap;
-  /*Флексы выстраиваются в несколько строк*/
-  margin: -15px;
-}
-
 
 .comanda-title {
   margin-bottom: 50px;
@@ -481,6 +488,7 @@ p {
   display: flex;
   justify-content: space-between;
   /*задает отступы между картинками*/
+
 }
 
 .comanda-photo {
@@ -604,8 +612,8 @@ p {
 
 /* Стилизация контактных данных футера: адрес, тел , емейл */
 .bottom {
-  padding-top: 60px;
-  padding-bottom: 60px;
+ /* padding-top: 60px;
+  padding-bottom: 60px;*/
   background-color: var(--secondary-sov-color);
 }
 
@@ -710,11 +718,6 @@ p{
 /*Cтилизация меню макета портфолио*/
 button {
   padding: 0 0;
-}
-
-.rabot {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 header {
