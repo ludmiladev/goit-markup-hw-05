@@ -377,7 +377,7 @@ p {
   display: block;
   content: "";
   height: 120px;
-
+  margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
   background-repeat: no-repeat;
@@ -436,12 +436,7 @@ p {
   /* размер шрифта*/
   line-height: 1.17;
 }
-.top-menu {
-  display: flex;
-  flex-wrap: wrap;
-  /*Флексы выстраиваются в несколько строк*/
-  margin: -15px;
-}
+
 
 
 .cartinca .top-menu {
@@ -451,7 +446,7 @@ p {
 }
 
 .cartinca .top-menu-text {
-
+  position: absolute;
   right: 0;
   bottom: 0;
   width: 100%;
@@ -713,6 +708,11 @@ h4,
 p{
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.rabot {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*Cтилизация меню макета портфолио*/
